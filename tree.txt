@@ -1,0 +1,168 @@
+.
+├── LICENSE
+├── README.md
+├── astro.config.mjs
+├── netlify.toml
+├── node_modules
+│   ├── @astrojs
+│   │   ├── check -> ../.pnpm/@astrojs+check@0.9.4_prettier-plugin-astro@0.14.1_prettier@3.3.3_typescript@5.6.3/node_modules/@astrojs/check
+│   │   ├── mdx -> ../.pnpm/@astrojs+mdx@3.1.9_astro@4.16.13_@types+node@18.19.64_rollup@4.27.3_sass@1.81.0_typescript@5.6.3_/node_modules/@astrojs/mdx
+│   │   ├── react -> ../.pnpm/@astrojs+react@3.6.2_@types+react-dom@18.3.1_@types+react@18.3.12_react-dom@18.3.1_react@18.3_eoyhcoz4vk2dnqdefhmmptqygi/node_modules/@astrojs/react
+│   │   ├── rss -> ../.pnpm/@astrojs+rss@4.0.9/node_modules/@astrojs/rss
+│   │   ├── sitemap -> ../.pnpm/@astrojs+sitemap@3.2.1/node_modules/@astrojs/sitemap
+│   │   └── tailwind -> ../.pnpm/@astrojs+tailwind@5.1.2_astro@4.16.13_@types+node@18.19.64_rollup@4.27.3_sass@1.81.0_typescri_xqjgluwqwkoqipriqcnkmbbmsm/node_modules/@astrojs/tailwind
+│   ├── @tailwindcss
+│   │   ├── forms -> ../.pnpm/@tailwindcss+forms@0.5.9_tailwindcss@3.4.15/node_modules/@tailwindcss/forms
+│   │   └── typography -> ../.pnpm/@tailwindcss+typography@0.5.15_tailwindcss@3.4.15/node_modules/@tailwindcss/typography
+│   ├── @types
+│   │   ├── github-slugger -> ../.pnpm/@types+github-slugger@1.3.0/node_modules/@types/github-slugger
+│   │   ├── marked -> ../.pnpm/@types+marked@5.0.2/node_modules/@types/marked
+│   │   └── react -> ../.pnpm/@types+react@18.3.12/node_modules/@types/react
+│   ├── astro -> .pnpm/astro@4.16.13_@types+node@18.19.64_rollup@4.27.3_sass@1.81.0_typescript@5.6.3/node_modules/astro
+│   ├── astro-auto-import -> .pnpm/astro-auto-import@0.4.4_astro@4.16.13_@types+node@18.19.64_rollup@4.27.3_sass@1.81.0_typescript@5.6.3_/node_modules/astro-auto-import
+│   ├── astro-font -> .pnpm/astro-font@0.1.81/node_modules/astro-font
+│   ├── date-fns -> .pnpm/date-fns@4.1.0/node_modules/date-fns
+│   ├── fuse.js -> .pnpm/fuse.js@7.0.0/node_modules/fuse.js
+│   ├── github-slugger -> .pnpm/github-slugger@2.0.0/node_modules/github-slugger
+│   ├── gray-matter -> .pnpm/gray-matter@4.0.3/node_modules/gray-matter
+│   ├── marked -> .pnpm/marked@14.1.4/node_modules/marked
+│   ├── postcss -> .pnpm/postcss@8.4.49/node_modules/postcss
+│   ├── prettier -> .pnpm/prettier@3.3.3/node_modules/prettier
+│   ├── prettier-plugin-astro -> .pnpm/prettier-plugin-astro@0.14.1/node_modules/prettier-plugin-astro
+│   ├── prettier-plugin-tailwindcss -> .pnpm/prettier-plugin-tailwindcss@0.6.9_prettier-plugin-astro@0.14.1_prettier@3.3.3/node_modules/prettier-plugin-tailwindcss
+│   ├── react -> .pnpm/react@18.3.1/node_modules/react
+│   ├── react-dom -> .pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom
+│   ├── react-icons -> .pnpm/react-icons@5.3.0_react@18.3.1/node_modules/react-icons
+│   ├── react-lite-youtube-embed -> .pnpm/react-lite-youtube-embed@2.4.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/react-lite-youtube-embed
+│   ├── remark-collapse -> .pnpm/remark-collapse@0.1.2/node_modules/remark-collapse
+│   ├── remark-toc -> .pnpm/remark-toc@9.0.0/node_modules/remark-toc
+│   ├── sass -> .pnpm/sass@1.81.0/node_modules/sass
+│   ├── sharp -> .pnpm/sharp@0.33.5/node_modules/sharp
+│   ├── tailwind-bootstrap-grid -> .pnpm/tailwind-bootstrap-grid@5.1.0_tailwindcss@3.4.15/node_modules/tailwind-bootstrap-grid
+│   ├── tailwindcss -> .pnpm/tailwindcss@3.4.15/node_modules/tailwindcss
+│   ├── typescript -> .pnpm/typescript@5.6.3/node_modules/typescript
+│   └── volar-service-prettier -> .pnpm/volar-service-prettier@0.0.62_@volar+language-service@2.4.10_prettier@3.3.3/node_modules/volar-service-prettier
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.js
+├── public
+│   ├── images
+│   │   ├── author.png
+│   │   ├── authors
+│   │   │   ├── john-doe.jpg
+│   │   │   └── mark-dinn.jpg
+│   │   ├── favicon.png
+│   │   ├── image-placeholder.png
+│   │   ├── logo.png
+│   │   └── posts
+│   │       ├── 01.jpg
+│   │       ├── 02.jpg
+│   │       ├── 03.jpg
+│   │       ├── 04.jpg
+│   │       ├── 05.jpg
+│   │       ├── 06.jpg
+│   │       └── 07.jpg
+│   └── robots.txt
+├── src
+│   ├── config
+│   │   ├── config.json
+│   │   ├── menu.json
+│   │   ├── social.json
+│   │   └── theme.json
+│   ├── content
+│   │   ├── about
+│   │   │   └── index.md
+│   │   ├── authors
+│   │   │   ├── -index.md
+│   │   │   ├── john-doe.md
+│   │   │   └── mark-dinn.md
+│   │   ├── config.ts
+│   │   ├── pages
+│   │   │   ├── 404.md
+│   │   │   ├── contact.md
+│   │   │   ├── elements.mdx
+│   │   │   └── privacy-policy.md
+│   │   ├── posts
+│   │   │   ├── -index.md
+│   │   │   ├── post-1.md
+│   │   │   ├── post-2.md
+│   │   │   ├── post-3.md
+│   │   │   ├── post-4.md
+│   │   │   ├── post-5.md
+│   │   │   ├── post-6.md
+│   │   │   └── post-7.md
+│   │   └── recipes
+│   │       └── pepper-pot.md
+│   ├── env.d.ts
+│   ├── layouts
+│   │   ├── AuthorSingle.astro
+│   │   ├── Authors.astro
+│   │   ├── Base.astro
+│   │   ├── Default.astro
+│   │   ├── PostSingle.astro
+│   │   ├── Posts.astro
+│   │   ├── SearchBar.tsx
+│   │   ├── components
+│   │   │   ├── Logo.astro
+│   │   │   ├── Pagination.astro
+│   │   │   ├── Share.astro
+│   │   │   ├── SimilarPosts.astro
+│   │   │   ├── Social.astro
+│   │   │   └── TwSizeIndicator.astro
+│   │   ├── partials
+│   │   │   ├── Footer.astro
+│   │   │   └── Header.astro
+│   │   ├── recipes.astro
+│   │   └── shortcodes
+│   │       ├── Accordion.tsx
+│   │       ├── Button.tsx
+│   │       ├── Notice.tsx
+│   │       ├── Tab.tsx
+│   │       ├── Tabs.tsx
+│   │       ├── Video.tsx
+│   │       └── Youtube.tsx
+│   ├── lib
+│   │   ├── contentParser.astro
+│   │   ├── taxonomyParser.astro
+│   │   └── utils
+│   │       ├── dateFormat.ts
+│   │       ├── readingTime.ts
+│   │       ├── similarItems.ts
+│   │       ├── sortFunctions.ts
+│   │       ├── taxonomyFilter.ts
+│   │       └── textConverter.ts
+│   ├── pages
+│   │   ├── 404.astro
+│   │   ├── [regular].astro
+│   │   ├── about.astro
+│   │   ├── authors
+│   │   │   ├── [single].astro
+│   │   │   ├── index.astro
+│   │   │   └── page
+│   │   │       └── [slug].astro
+│   │   ├── categories
+│   │   │   ├── [category].astro
+│   │   │   └── index.astro
+│   │   ├── contact.astro
+│   │   ├── index.astro
+│   │   ├── page
+│   │   │   └── [slug].astro
+│   │   ├── recipe.astro
+│   │   ├── search.astro
+│   │   └── tags
+│   │       ├── [tag].astro
+│   │       └── index.astro
+│   ├── styles
+│   │   ├── base.scss
+│   │   ├── buttons.scss
+│   │   ├── components.scss
+│   │   ├── main.scss
+│   │   ├── navigation.scss
+│   │   └── utilities.scss
+│   └── types
+│       └── index.d.ts
+├── tailwind.config.js
+├── tree.txt
+└── tsconfig.json
+
+66 directories, 100 files

@@ -1,0 +1,38 @@
+---
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import Pagination from "@/layouts/components/Pagination.astro";
+import Posts from "@/layouts/Posts.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { sortByDate } from "@/lib/utils/sortFunctions";
+
+// Fetch posts and recipes
+const posts = await getSinglePage("posts");
+
+
+// Sort posts and recipes
+const sortedPosts = sortByDate(posts);
+
+
+// Pagination for posts
+const totalPostPages = Math.ceil(posts.length / config.settings.pagination);
+const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+
+
+---
+
+<Base>
+  <section class="section">
+    <div class="container">
+      
+      <!-- Display posts -->
+      <h2>Blog Posts</h2>
+      <Posts posts={currentPosts} className="mb-16" />
+      <Pagination currentPage={1} totalPages={totalPostPages} />
+
+
+
+    </div>
+  </section>
+</Base>
+

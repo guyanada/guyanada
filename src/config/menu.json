@@ -1,0 +1,39 @@
+{
+  "main": [
+  
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Introduction",
+      "url": "/introduction"
+    },
+    {
+      "name": "Pantry",
+      "url": "/pantry"
+    },
+    {
+      "name": "Recipe Finder",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+             {
+          "name": "Course Type",
+          "url": "/categories"
+        },
+        {
+          "name": "Tags",
+          "url": "/tags"
+        }
+      ]
+    }
+
+  ],
+  "footer": [
+     {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    }
+  ]
+}
