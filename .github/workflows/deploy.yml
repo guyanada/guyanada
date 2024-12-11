@@ -18,10 +18,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Install dependencies
         run: |
-          npm ci  # Or you can use `pnpm install` if you're using pnpm
+          pnpm install  # Or you can use `pnpm install` if you're using pnpm
       - name: Build the site
         run: |
-          npm run build  # Or `pnpm run build` if you're using pnpm
+          pnpm run build  # Or `pnpm run build` if you're using pnpm
 
   deploy:
     needs: build
