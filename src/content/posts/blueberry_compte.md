@@ -13,8 +13,6 @@ draft: false
 
 This bold and flavorful compote combines the sweetness of blueberries, the earthiness of sage, and the fruity heat of wiri wiri peppers for a spicy twist. Perfect for adventurous palates!
 
----
-
 ## **Ingredients**
 - 2 cups fresh or frozen blueberries
 - 1/4 cup brown sugar (adjust to taste)
@@ -25,8 +23,6 @@ This bold and flavorful compote combines the sweetness of blueberries, the earth
 - Optional: 1-2 wiri wiri peppers, finely chopped (adjust for heat tolerance)
 - 1 tablespoon fresh lime juice
 - 1 teaspoon cornstarch mixed with 1 tablespoon water (optional for thickening)
-
----
 
 ## **Instructions**
 
@@ -51,7 +47,7 @@ This bold and flavorful compote combines the sweetness of blueberries, the earth
 5. **Cool and Serve:**
    - Remove the compote from heat and let it cool slightly before serving.
 
----
+
 
 ## **Serving Suggestions**
 - **With Meat:** Pair with grilled or roasted pork, duck, or venison for a spicy, fruity glaze.
